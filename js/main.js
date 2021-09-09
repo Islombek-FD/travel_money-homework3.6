@@ -10,7 +10,7 @@ var all_money = travel_money + hotel_money + museum_money;
 console.log('Sayohat uchun ketadigan pul mablag\'i: ' + all_money + ' sum;' );
 console.log(`Sizning pulingiz: ${user_money} sum;`)
 if (user_money >= all_money) {
-    console.log('Oq yo’l, Alisher!');
+    console.log(`Oq yo’l, ${user_name}!`);
 }else {
-    console.log('Alisher, ozgina sabr qilish kerak bo’lar ekan.');
+    console.log(`${user_name}, ozgina sabr qilish kerak bo’lar ekan.`);
 }
